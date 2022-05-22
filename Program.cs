@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns // Note: actual namespace depends on the project name.
+﻿using DesignPatterns.Patterns.Singleton;
+
+namespace DesignPatterns // Note: actual namespace depends on the project name.
 {
     internal class Program
     {
@@ -8,7 +10,8 @@
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            SingletonTest singleton = new SingletonTest();
+            singleton.Run();
         }
     }
 }
