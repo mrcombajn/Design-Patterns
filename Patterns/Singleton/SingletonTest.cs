@@ -1,17 +1,30 @@
-﻿using DesignPatterns.PatternsUtils;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Patterns.Singleton
+﻿namespace DesignPatterns.Patterns.Singleton
 {
+    #region Using Statements
+    using DesignPatterns.PatternsUtils;
+    #endregion
     public class SingletonTest : IDesignPattern
     {
+        #region Public Methods
         public void Run()
         {
-            throw new NotImplementedException();
+            SingletonExample singletonExample = SingletonExample.GetInstace();
+            //CheckSingletonToStringWithOneThread();
         }
+        #endregion
+
+        #region Private Methods
+        /// <summary>
+        /// 
+        /// </summary>
+        private void CheckSingletonToStringWithOneThread()
+        {
+            for(int i = 0; i < 10; i++)
+            {
+                SingletonExample singletonExample = SingletonExample.GetInstace();
+                Console.WriteLine(singletonExample);
+            }
+        }
+        #endregion
     }
 }
