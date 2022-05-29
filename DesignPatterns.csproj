@@ -2,15 +2,14 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>net48</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <LangVersion>Latest</LangVersion>
+    <LangVersion>latest</LangVersion>
     <StartupObject>DesignPatterns.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Patterns\Builder\" />
     <Folder Include="Patterns\Prototype\" />
   </ItemGroup>
 

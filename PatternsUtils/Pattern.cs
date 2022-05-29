@@ -5,7 +5,7 @@ namespace DesignPatterns.PatternsUtils
     public static class Pattern
     {
 
-     /*   public static IDesignPattern CreateDesignPatter(PatternType patternType)
+        public static IDesignPattern CreateDesignPattern(PatternType patternType)
         {
             return switch (patternType)
             {
@@ -13,6 +13,6 @@ namespace DesignPatterns.PatternsUtils
                 _ => throw new ArgumentException("Cannot find appropriate design pattern"),
             };
 
-        }*/
+        }
     }
 }

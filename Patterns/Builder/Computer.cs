@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DesignPatterns.Patterns.Builder
+﻿namespace DesignPatterns.Patterns.Builder
 {
-    internal class Computer
+    public class Computer
     {
+        private string _processor;
+        private string _graphic_card;
+        private string _disks_capacity;
+        private string _psu;
+        private int _number_of_fans;
+
     }
 }
