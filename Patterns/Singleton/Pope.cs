@@ -4,8 +4,7 @@
     {
         #region Fields
 
-        private static Pope _pope;
-        private static int _popeId = 0;
+        private static Pope? _pope;
         private string _name;
 
         #endregion
@@ -28,15 +27,14 @@
 
         public override string ToString()
         {
-            return string.Format($"{0} number {1}", _name, _popeId);
+            return $"{this._name}";
         }
 
-        public static Pope GetInstace()
+        public static Pope GetInstace(string name)
         {
             if(_pope == null)
             {
-                _pope = new Pope("John Paul II");
-                _popeId++;
+                _pope = new Pope(name);
             }
             return _pope;
         }

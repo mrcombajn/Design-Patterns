@@ -1,6 +1,6 @@
-﻿using DesignPatterns.Patterns.Singleton;
+﻿using DesignPatterns.PatternsUtils;
 
-namespace DesignPatterns // Note: actual namespace depends on the project name.
+namespace DesignPatterns
 {
     internal class Program
     {
@@ -10,8 +10,9 @@ namespace DesignPatterns // Note: actual namespace depends on the project name.
 
         static void Main(string[] args)
         {
-            SingletonTest singleton = new SingletonTest();
-            singleton.Run();
+            IComponentTest component = PatternFactory.CreateDesignPattern(PatternType.SINGLETON);
+            component.Run();
+            Console.WriteLine(component);
         }
     }
 }

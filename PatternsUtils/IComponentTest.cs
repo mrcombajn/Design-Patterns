@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.PatternsUtils
 {
-    public interface IDesignPattern
+    public interface IComponentTest
     {
         public void Run();
     }
