@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.PatternsUtils
 {
-    public enum PatternType
+    public enum ComponentType
     {
         SINGLETON,
         BUILDER,
@@ -21,6 +21,7 @@
         OBSERVER,
         STATE,
         TEMPLATEMETHOD,
-        VISITOR
+        VISITOR,
+        STRATEGY,
     }
 }

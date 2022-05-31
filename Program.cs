@@ -10,9 +10,8 @@ namespace DesignPatterns
 
         static void Main(string[] args)
         {
-            IComponentTest component = PatternFactory.CreateDesignPattern(PatternType.SINGLETON);
+            IComponentTest component = ComponentFactory.CreateComponent(ComponentType.STRATEGY);
             component.Run();
-            Console.WriteLine(component);
         }
     }
 }
