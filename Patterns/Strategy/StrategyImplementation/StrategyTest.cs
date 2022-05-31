@@ -7,8 +7,8 @@ namespace DesignPatterns.Patterns.Strategy
         public void Run()
         {
 
-            Communication c = new Communication();
-            c.SetStrategy(new Mail());
+            Communication c = new Communication(new TextMessageStrategy());
+            c.SetStrategy(new MailStrategy());
             c.InvokeStrategy();
         }
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatterns.Patterns.Strategy
 {
-    internal class Mail : CommunicationStrategy
+    internal class MailStrategy : CommunicationStrategy
     {
         public void Communicate()
         {

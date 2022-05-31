@@ -5,7 +5,14 @@
     public class Communication
     {
         #region Fields
-        private CommunicationStrategy _strategy;
+        private CommunicationStrategy? _strategy;
+        #endregion
+
+        #region Constructors
+        public Communication(CommunicationStrategy _strategy)
+        {
+            this._strategy = this._strategy;
+        }
         #endregion
 
         #region Public Methods

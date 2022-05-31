@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Patterns.Strategy
 {
-    public class TextMessage : CommunicationStrategy
+    public class TextMessageStrategy : CommunicationStrategy
     {
         public void Communicate()
         {

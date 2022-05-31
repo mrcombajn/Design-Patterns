@@ -9,8 +9,4 @@
     <StartupObject>DesignPatterns.Program</StartupObject>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Patterns\Strategy\IncorrectImplementation\" />
-  </ItemGroup>
-
 </Project>

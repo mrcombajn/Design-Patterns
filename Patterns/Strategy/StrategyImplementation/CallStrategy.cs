@@ -1,6 +1,6 @@
 ﻿namespace DesignPatterns.Patterns.Strategy
 {
-    public class Call : CommunicationStrategy
+    public class CallStrategy : CommunicationStrategy
     {
         public void Communicate()
         {
