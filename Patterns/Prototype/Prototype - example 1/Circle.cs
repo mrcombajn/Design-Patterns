@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Patterns.Prototype
+﻿using DesignPatterns.Patterns.Prototype.Prototype___example_1;
+
+namespace DesignPatterns.Patterns.Prototype
 {
     #region Using Statements
     #endregion

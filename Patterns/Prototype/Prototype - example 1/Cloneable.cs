@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Patterns.Prototype
+﻿namespace DesignPatterns.Patterns.Prototype.Prototype___example_1
 {
     public interface Cloneable
     {

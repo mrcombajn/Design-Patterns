@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Patterns.Strategy
+﻿using System;
+
+namespace DesignPatterns.Patterns.Strategy
 {
     public class TextMessageStrategy : CommunicationStrategy
     {

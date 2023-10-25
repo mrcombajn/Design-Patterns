@@ -1,9 +1,8 @@
-﻿namespace DesignPatterns.Patterns.Builder
+﻿namespace DesignPatterns.Patterns.Builder.BuilderImplementationViaSetters
 {
     public class ComputerBuilder
     {
-        #region Fields
-        private string? _processor;
+        private string? _processor;
         private string? _graphicCard;
         private string? _motherboard;
         private int _diskCapacity;
@@ -13,17 +12,12 @@
         private int _numberOfFans;
         private int _ramSize;
         private bool _cdRom;
-        #endregion
 
-
-        #region Constructors and Deconstructors
-        public ComputerBuilder()
+        public ComputerBuilder()
         {
         }
-        #endregion
-
-
-        public ComputerBuilder SetProcessor(string _processor)
+        
+        public ComputerBuilder SetProcessor(string _processor)
         {
             this._processor = _processor;
             return this;

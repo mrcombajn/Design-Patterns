@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Patterns.Builder
+﻿namespace DesignPatterns.Patterns.Builder.BuilderImplementationViaSetters
 {
     public class ComputerImpl : AbstractComputer
     {

@@ -1,4 +1,6 @@
-﻿namespace DesignPatterns.Patterns.Strategy.IncorrectImplementation
+﻿using System;
+
+namespace DesignPatterns.Patterns.Strategy.IncorrectImplementation
 {
     public class MailCommunication
     {
